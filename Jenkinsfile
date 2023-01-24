@@ -31,7 +31,7 @@ touch "dist/client.js"'''
 
     stage('Test_Docker') {
       steps {
-        sh 'docker ps -a'
+        sh 'sudo docker ps -a'
       }
     }
 
