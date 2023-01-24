@@ -8,7 +8,7 @@ pipeline {
             sh '''echo " building server"
 mvn --version
 mkdir -p target
-touch "/target/server.war"'''
+touch "target/server.war"'''
             stash(name: 'Server', includes: '**/*.war')
           }
         }
