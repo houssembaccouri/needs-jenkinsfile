@@ -36,7 +36,4 @@ touch "dist/client.js"'''
     }
 
   }
-  environment {
-    docker = ''
-  }
 }
